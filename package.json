@@ -1,0 +1,25 @@
+{
+  "name": "lovcli",
+  "version": "0.2.0",
+  "description": "Personal CLI toolbox",
+  "type": "module",
+  "bin": {
+    "lovcli": "bin/lovcli.js"
+  },
+  "author": "Hiroko",
+  "license": "MIT",
+  "packageManager": "pnpm@10.15.1",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "ignore": "^7.0.5"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
